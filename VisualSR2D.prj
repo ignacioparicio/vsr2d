@@ -1,0 +1,152 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1936348511" file="C:\Users\Ignacio\Desktop\Dropbox\TFG\VisualSR2D\MATLAB\VisualSR2D.prj" location="C:\Users\Ignacio\Desktop\Dropbox\TFG\VisualSR2D\MATLAB" name="VisualSR2D" preferred-package-location="C:\Users\Ignacio\Desktop\Dropbox\TFG\VisualSR2D\MATLAB\VisualSR2D\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications">
+    <param.appname>VisualSR2D</param.appname>
+    <param.icon>${PROJECT_ROOT}\VisualSR2D_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\VisualSR2D_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\VisualSR2D_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\VisualSR2D_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\VisualSR2D_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.2</param.version>
+    <param.authnamewatermark>Ignacio Paricio</param.authnamewatermark>
+    <param.email>i.paricio92@gmail.com</param.email>
+    <param.company>Technical University of Madrid</param.company>
+    <param.summary>Visual Suface Roughness 2D. A reference software in the analysis of 2D Roughness Profiles.</param.summary>
+    <param.description>This software allows you to process standard .smd files containing Roughness Profiles as defined in the UNE-EN ISO 5436-2 standards.
+
+It consists of several modules that allow you to study multiple features of the selected data, such as:
+
+-&gt; Parameters Definition
+
+-&gt; Frequency Domain Filtering + Dedicated Exporting Module
+
+-&gt; Gaussian Filtering + Dedicated Exporting Module
+
+-&gt; 2RC Filtering + Dedicated Exporting Module
+
+-&gt; Power Spectral Density
+
+-&gt; Correlation
+
+-&gt; Bearing Area Curve
+
+
+An independent module for the creation of standardized .smd files, "VisualSR2D smd Generator" is also included.
+
+
+This software was developed by Ignacio Paricio, an Aerospace Engineering student in the Technical University of Madrid, Spain, as part of his Final Degree Project.
+
+March - July 2014
+
+
+All rights reserved.</param.description>
+    <param.screenshot>C:\Users\Ignacio\Desktop\Dropbox\TFG\VisualSR2D\Splash Screen &amp; icon\VisualSR2D400x400px.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\VisualSR2D\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo>C:\Users\Ignacio\Desktop\Dropbox\TFG\VisualSR2D\Splash Screen &amp; icon\VisualSR2D150x340px.png</param.logo>
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\VisualSR2D\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\VisualSR2D\for_redistribution</param.output>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.server.ctf>${PROJECT_ROOT}\VisualSR2D\for_testing\.ctf</param.server.ctf>
+    <param.server.readme>${PROJECT_ROOT}\VisualSR2D\for_testing\readme.txt</param.server.readme>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>VisualSR2D v1.2 (x64)</param.web.mcr.name>
+    <param.package.mcr.name>VisualSR2D v1.2 (x64) + MCR</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.guid />
+      <param.installpath.combo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\VisualSR2D.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\current_date_and_time.m</file>
+      <file>${PROJECT_ROOT}\export_filtered_profile.m</file>
+      <file>${PROJECT_ROOT}\gaussian_window.jpg</file>
+      <file>${PROJECT_ROOT}\getCurrentPopupString.m</file>
+      <file>${PROJECT_ROOT}\VisualSR2D.fig</file>
+      <file>${PROJECT_ROOT}\VisualSR2D_smd_Generator.fig</file>
+      <file>${PROJECT_ROOT}\VisualSR2D_smd_Generator.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\VisualSR2D\for_testing" name="readme.txt" optional="true">C:\Users\Ignacio\Desktop\Dropbox\TFG\VisualSR2D\MATLAB\VisualSR2D\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\VisualSR2D\for_testing" name="splash.png" optional="false">C:\Users\Ignacio\Desktop\Dropbox\TFG\VisualSR2D\MATLAB\VisualSR2D\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\VisualSR2D\for_testing" name="VisualSR2D.exe" optional="false">C:\Users\Ignacio\Desktop\Dropbox\TFG\VisualSR2D\MATLAB\VisualSR2D\for_testing\VisualSR2D.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2014a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
